@@ -1,0 +1,23 @@
+Kernel(x) in line 31 and 79 of glsl code
+
+Params:
+
+RobidouxSoft
+B = (9-3*sqrt(2))/7 = 0.67962275898295921
+C = 0.1601886205085204
+
+Robidoux
+B = 12/(19+9sqrt(2)) = 0.37821575509399866
+C = 113/(58+216sqrt(2)) = 0.31089212245300067
+
+Mitchell
+B = 1/3
+C = 1/3
+
+RobidouxSharp
+B = 6/(13+7sqrt(2)) = 0.2620145123990142
+C = 7/(2+12sqrt(2)) = 0.3689927438004929
+
+catmull_rom
+B = 0.0
+C = 0.5 

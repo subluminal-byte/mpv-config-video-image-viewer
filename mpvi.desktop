@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Categories=Graphics;2DGraphics;Viewer;
+Comment[en_US]=Image viewer
+Comment=Image Viewer
+Exec=mpv --config-dir=~/.config/mpvi -- %U
+GenericName[en_US]=Image viewer
+GenericName=Image viewer
+Icon=mpv
+MimeType=inode/directory;image/x-xbitmap;image/x-tga;image/x-portable-pixmap;image/x-portable-graymap;image/x-portable-bitmap;image/x-portable-anymap;image/vnd.zbrush.pcx;image/tiff;image/png;image/jpeg;image/jpeg;image/gif;image/bmp;image/bmp;
+Name[en_US]=mpvi
+Name=mpvi
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
