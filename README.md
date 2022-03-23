@@ -47,3 +47,8 @@ And of course:
 https://github.com/mpv-player/mpv
 
 https://github.com/yt-dlp/yt-dlp
+
+
+To Do List:
+
+Figure out 2 Monitor setup where landscape orientation images play in widescreen monitor and portrait orientation images automatically switch to vertical monitor. The height-profiles lua scripts also would need adjustment then. 
