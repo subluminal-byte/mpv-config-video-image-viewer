@@ -1,7 +1,7 @@
 # mpv-config-video-image-viewer
 Config, .desktop files and other modifications in order to use mpv as a video and image viewer.
 
-Now you might be asking yourself this: There are plenty of great image viewers, both CLI and GUI, out there. Why would bother with this, especially when it requires a bit of work setting up? Well, feh and nomacs would be 2 good examples. Both great image viewers. I use them also. mpvi is nowhere as fast as feh and nomacs is far better looking. But if your primary goal is image quality, mpvi is superior to both. Having said that, in order to appreciate the upliftment in quality, you would ideally need a Hi-Res Monitor and/or the image you're trying to view would have to be low-res, say below 600p. In these cases, difference in quality is quite marked. Mainly becasue of the glsl shaders.
+Now you might be asking yourself this: There are plenty of great image viewers, both CLI and GUI, out there. Why would I bother with this, especially when it requires a bit of work setting up? Well, feh and nomacs would be 2 good examples. Both great image viewers. I use them also. mpvi is nowhere as fast as feh and nomacs is far better looking. But if your primary goal is image quality, mpvi is superior to both. Having said that, in order to appreciate the upliftment in quality, you would ideally need a Hi-Res Monitor and/or the image you're trying to view would have to be low-res, say below 600p. In these cases, difference in quality is quite marked. Mainly becasue of the glsl shaders.
 
 Keep in mind these are my own configs, tailored to suit my needs and hardware. Your needs and hardware are likely different. So change the code accordingly.
 
