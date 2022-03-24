@@ -2,7 +2,9 @@
 Config, .desktop files and other modifications in order to use mpv as a video and image viewer.
 
 Keep in mind these are my own configs, tailored to suit my needs and hardware. Your needs and hardware are likely different. So change the code accordingly.
-Also, these settings are written with Linux in mind. Some changes will be required to use in Windows/Mac.
+
+Also, these settings are written with Linux in mind. Some changes will be required to use in Windows/Mac. Mainly related to config file locations. For windows:
+https://mpv.io/manual/master/#files-on-windows
 
 Copy the mpvi and mpv to inside ~/.config. mpv is for mpv as video player. mpvi for mpv as image viewer.
 
