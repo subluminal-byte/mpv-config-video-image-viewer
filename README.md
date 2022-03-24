@@ -16,7 +16,7 @@ Copy the mpvi and mpv to inside ~/.config. mpv is for mpv as video player. mpvi 
 The function mpvmusic in .bash_ aliases is to play song/music from youtube. Only audio and no video. alias mpvi is for mpvi from the terminal. .desktop file for usage from inside filemanager/other apps.
 
 mpvi can be called from terminal to play either a directory containing multiple images as a slideshow or a single image.
-Playing a single image will automatically add entries to playlist using autoload.lua. Playback starts paused. Press space to start slideshow from the current image. Or simply comment out or delete the 'pause=yes' option in mpvi/mpv.conf. status-line.lua shows filename, file size and image dimentions.
+Playing a single image will automatically add entries to playlist using autoload.lua. Playback starts paused. Press space to start slideshow from the current image. Or simply comment out or delete the 'pause=yes' option in mpvi/mpv.conf. status-line.lua shows filename, file size and image dimensions.
 
 FSRCNNX is used to upscale luma by 2X, Krigbilateral to upscale chroma plane by 2X and SSimDownscaler to produce good downscaled images.
 
