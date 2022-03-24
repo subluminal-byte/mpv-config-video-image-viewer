@@ -9,7 +9,7 @@ Also, these settings are written with Linux in mind. Some changes will be requir
 https://mpv.io/manual/master/#files-on-windows
 
 Requirements:
-mpv with lua enabled, youtube-dl installed and in PATH. For OS Linux is preferred but most of these settings can be tweaked and used in Windows/Mac. ffmpeg should also be installed. And GIMP if you want to use the custom keybindings in mpvi/input.conf. I'm sure I'm forgetting something. It'll come to me when I'm asleep.
+mpv with lua enabled, youtube-dl or yt-dlp installed and in PATH. For OS Linux is preferred but most of these settings can be tweaked and used in Windows/Mac. ffmpeg should also be installed. And GIMP if you want to use the custom keybindings in mpvi/input.conf. I'm sure I'm forgetting something. It'll come to me when I'm asleep.
 
 Copy the mpvi and mpv to inside ~/.config. mpv is for mpv as video player. mpvi for mpv as image viewer.
 
