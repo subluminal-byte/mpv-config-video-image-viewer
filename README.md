@@ -49,6 +49,8 @@ https://github.com/bjin/mpv-prescalers
 
 https://github.com/bloc97/Anime4K/blob/master/GLSL_Instructions.md
 
+https://gist.github.com/agyild
+
 And of course:
 
 https://github.com/mpv-player/mpv
