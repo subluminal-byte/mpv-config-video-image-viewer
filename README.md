@@ -30,7 +30,7 @@ In mpv as video player, I have 2 lua scripts. height-profiles.lua loads conditio
 
 The input.conf for mpvi has several lines. 2nd line to copy the current image to ~/Pictures. Change /home/username/Pictures to reflect your username. A general solution would've been preferable but ~/Pictures didn't work. Full pathname is required ($USER) didn't work either. 1st line deletes the currently playing file. Change or add actions if you like. Follow the syntax. 3rd line lets the user open current file in GIMP. Others are for zoom. Pretty self-explanatory.
 
-Altough I personally don't use them, there are a few Anime4K shaders inside the shaders directory. Useful if you are viewing Anime. For Real-life content, ravu and SSimSuperRes produce better quality videos/images. FSRCNNX is even better but requires a more powerful GPU. The SSSR params.txt file contains values for parameters for different scalers (Robidoux, mitchell, catmull_rom etc). These are for scalers to be used with SSimSuperRes.glsl.
+Altough I personally don't use them, there are a few Anime4K shaders inside the shaders directory. Useful if you are viewing Anime. For Real-life content, FSR, ravu and SSimSuperRes produce better quality videos/images. FSRCNNX is even better but requires a more powerful GPU. The SSSR params.txt file contains values for parameters for different scalers (Robidoux, mitchell, catmull_rom etc). These are for scalers to be used with SSimSuperRes.glsl.
 
 There are some video/audio filters set up in input.conf. Read the remarks. Also quite a few video filters in mpv.conf. Experiment to your heart's content.
 
