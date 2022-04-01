@@ -18,7 +18,7 @@ The function mpvmusic in .bash_ aliases is to play song/music from youtube. Only
 mpvi can be called from terminal to play either a directory containing multiple images as a slideshow or a single image.
 Playing a single image will automatically add entries to playlist using autoload.lua. Playback starts paused. Press space to start slideshow from the current image. Or simply comment out or delete the 'pause=yes' option in mpvi/mpv.conf. status-line.lua shows filename, file size and image dimensions.
 
-FSRCNNX is used to upscale luma by 2X for images and FSR for videos (since FSR is much much faster and of similar visual quality), Krigbilateral to upscale chroma plane by 2X and SSimDownscaler to produce good downscaled images. Since FSR can do upto 2X upscaling, for my hardware, no downscaling/upscaling is needed. If you require further upscaling, say for 720p > 4K, use mpv's scale=ewa_lanczossharp to do the rest.
+FSRCNNX is used to upscale luma by 2X for images and FSR for videos (since FSR is much much faster and, most of the time, of similar visual quality), Krigbilateral to upscale chroma plane by 2X and SSimDownscaler to produce good downscaled images. Since FSR can do upto 2X upscaling, for my hardware, no downscaling/upscaling is needed. If you require further upscaling, say for 720p > 4K, use mpv's scale=ewa_lanczossharp to do the rest.
 
 Note: The FSRCNNX_x2_8-0-4-1.glsl file has been modified to enable upscaling if image height/width is less than or equal to 5/3 times the display height/width.
 Reason behind this is I want to force FSRCNNX even when image height is slightly larger than display height. I personally find it increases quality. Some, I'm certain, would disagree.
