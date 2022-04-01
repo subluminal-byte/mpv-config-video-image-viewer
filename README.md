@@ -18,7 +18,7 @@ The function mpvmusic in .bash_ aliases is to play song/music from youtube. Only
 mpvi can be called from terminal to play either a directory containing multiple images as a slideshow or a single image.
 Playing a single image will automatically add entries to playlist using autoload.lua. Playback starts paused. Press space to start slideshow from the current image. Or simply comment out or delete the 'pause=yes' option in mpvi/mpv.conf. status-line.lua shows filename, file size and image dimensions.
 
-FSRCNNX is used to upscale luma by 2X, Krigbilateral to upscale chroma plane by 2X and SSimDownscaler to produce good downscaled images.
+FSRCNNX is used to upscale luma by 2X for images and FSR for videos (since FSR is much much faster and of similar visual quality), Krigbilateral to upscale chroma plane by 2X and SSimDownscaler to produce good downscaled images. Since FSR can do upto 2X upscaling, for my hardware, no downscaling/upscaling is needed. If you require further upscaling, say for 720p > 4K, use mpv's scale=ewa_lanczossharp to do the rest.
 
 Note: The FSRCNNX_x2_8-0-4-1.glsl file has been modified to enable upscaling if image height/width is less than or equal to 5/3 times the display height/width.
 Reason behind this is I want to force FSRCNNX even when image height is slightly larger than display height. I personally find it increases quality. Some, I'm certain, would disagree.
@@ -30,7 +30,7 @@ In mpv as video player, I have 2 lua scripts. height-profiles.lua loads conditio
 
 The input.conf for mpvi has several lines. 2nd line to copy the current image to ~/Pictures. Change /home/username/Pictures to reflect your username. A general solution would've been preferable but ~/Pictures didn't work. Full pathname is required ($USER) didn't work either. 1st line deletes the currently playing file. Change or add actions if you like. Follow the syntax. 3rd line lets the user open current file in GIMP. Others are for zoom. Pretty self-explanatory.
 
-Altough I personally don't use them, there are a few Anime4K shaders inside the shaders directory. Useful if you are viewing Anime. For Real-life content, FSR, ravu and SSimSuperRes produce better quality videos/images. FSRCNNX is even better but requires a more powerful GPU. The SSSR params.txt file contains values for parameters for different scalers (Robidoux, mitchell, catmull_rom etc). These are for scalers to be used with SSimSuperRes.glsl.
+For Real-life content, FSR, ravu and SSimSuperRes produce better quality videos/images. FSRCNNX is even better but requires a more powerful GPU. The SSSR params.txt file contains values for parameters for different scalers (Robidoux, mitchell, catmull_rom etc). These are for scalers to be used with SSimSuperRes.glsl.
 
 There are some video/audio filters set up in input.conf. Read the remarks. Also quite a few video filters in mpv.conf. Experiment to your heart's content.
 
@@ -46,8 +46,6 @@ https://github.com/igv/FSRCNN-TensorFlow/releases
 https://gist.github.com/igv
 
 https://github.com/bjin/mpv-prescalers
-
-https://github.com/bloc97/Anime4K/blob/master/GLSL_Instructions.md
 
 https://gist.github.com/agyild
 
