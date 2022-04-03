@@ -15,12 +15,13 @@ https://www.smplayer.info/
 https://iina.io/
 
 
+I have personal experience with only SMplayer and not IINA. All the video player related settings here can be accessed using SMplayer advanced option.
+Do duckduckgo/google search for setting up IINA with customized mpv settings.
+
+
 If you're in Linux, and you want to try something else or are unsure and want to test different mpv-based GUI players.
 
 https://wiki.archlinux.org/title/List_of_applications/Multimedia#mpv-based
-
-I have personal experience with only SMplayer and not IINA. All the video player related settings here can be accessed using SMplayer advanced option.
-Do duckduckgo/google search for setting up IINA with customized mpv settings.
 
 Requirements:
 mpv with lua enabled, youtube-dl or yt-dlp installed and in PATH. For OS Linux is preferred but most of these settings can be tweaked and used in Windows/Mac. ffmpeg should also be installed. And GIMP if you want to use the custom keybindings in mpvi/input.conf. I'm sure I'm forgetting something. It'll come to me when I'm asleep.
