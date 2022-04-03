@@ -10,6 +10,7 @@ https://mpv.io/manual/master/#files-on-windows
 
 Also, for mpv as video player, if you require fancy looking GUI, SMPlayer (Windows/Linux) and IINA (Mac) are good choices.
 https://www.smplayer.info/
+
 https://iina.io/
 
 I have personal experience with only SMplayer and not IINA. All the video player related settings here can be accessed using SMplayer advanced option.
