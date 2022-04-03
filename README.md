@@ -14,6 +14,11 @@ https://www.smplayer.info/
 
 https://iina.io/
 
+
+If you're in Linux, and you want to try something else or are unsure and want to test different mpv-based GUI players.
+
+https://wiki.archlinux.org/title/List_of_applications/Multimedia#mpv-based
+
 I have personal experience with only SMplayer and not IINA. All the video player related settings here can be accessed using SMplayer advanced option.
 Do duckduckgo/google search for setting up IINA with customized mpv settings.
 
