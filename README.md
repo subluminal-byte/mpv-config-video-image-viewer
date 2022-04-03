@@ -9,6 +9,7 @@ Also, these settings are written with Linux in mind. Some changes will be requir
 https://mpv.io/manual/master/#files-on-windows
 
 Also, for mpv as video player, if you require fancy looking GUI, SMPlayer (Windows/Linux) and IINA (Mac) are good choices.
+
 https://www.smplayer.info/
 
 https://iina.io/
