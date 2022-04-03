@@ -34,7 +34,7 @@ For Real-life content, FSR, ravu and SSimSuperRes produce better quality videos/
 
 There are some video/audio filters set up in input.conf. Read the remarks. Also quite a few video filters in mpv.conf. Experiment to your heart's content.
 
-Note: Debanding in general improves quality of videos and mpv has a great inbuilt debanding system. But it also is resource-intensive and if deband-iterations is high ( >3 ) it would take away too much details. Also, some souce videos have no (discernible) quality improvement from debanding. So you could disable debanding in mpv.conf and use the keybingings setup in input.conf to load/unload(restore) deband-cond profile which is setup in mpv.conf.
+Note: Debanding in general improves quality of videos and mpv has a great inbuilt debanding system. But it also is resource-intensive and if deband-iterations is high ( >3 ) it would take away too much details. Also, some source videos have no (discernible) quality improvement from debanding. So you could disable debanding in mpv.conf and use the keybingings setup in input.conf to load/unload(restore) deband-cond profile which is setup in mpv.conf.
 
 
 Special thanks to:
