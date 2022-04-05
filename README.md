@@ -41,7 +41,7 @@ But since image quality is highly subjective, you are welcome to your opinion. F
 
 Keep in mind the human eye is far less sensitive to choma/color than luma. To quote wikipedia, human eye has upto 20 times as many rod cells as cone. So a decent chroma upscaler and a great luma upscaler should be the priority when hardware is limited.
 
-In mpv as video player, I have 2 lua scripts. height-profiles.lua loads conditional profiles based on video height. UD = 2K/4K+ videos. FHD = height < 1440 and => 1080. HD = < 1080 and >= 720 and finally, SD = all else meaning < 720. Change the lua file to suit your needs. Profiles are defined in mpv.conf. live-filters.lua can insert arbitrary ffmpeg filters on the fly. Use the key '`' to call it. In the little line that appears at the bottom of the screen, type in the ffmpeg filter of your choice ( without adding vf or lavfi ).
+In mpv as video player, I have 3 lua scripts. height-profiles.lua loads conditional profiles based on video height. UD = 2K/4K+ videos. FHD = height < 1440 and => 1080. HD = < 1080 and >= 720 and finally, SD = all else meaning < 720. Change the lua file to suit your needs. Profiles are defined in mpv.conf. live-filters.lua can insert arbitrary ffmpeg filters on the fly. Use the key '`' to call it. In the little line that appears at the bottom of the screen, type in the ffmpeg filter of your choice ( without adding vf or lavfi ). youtube-dl-quality.lua can be used to switch youtube video and/or audio formats. I slightly modified it to scale better in fullscreen and added video filesize. Also vcodec format is slightly modified for better looking output. Original lua is linked at the end of the README.
 
 The input.conf for mpvi has several lines. 2nd line to copy the current image to ~/Pictures. Change /home/username/Pictures to reflect your username. A general solution would've been preferable but ~/Pictures didn't work. Full pathname is required ($USER) didn't work either. 1st line deletes the currently playing file. Change or add actions if you like. Follow the syntax. 3rd line lets the user open current file in GIMP. Others are for zoom. Pretty self-explanatory.
 
@@ -65,6 +65,9 @@ https://gist.github.com/igv
 https://github.com/bjin/mpv-prescalers
 
 https://gist.github.com/agyild
+
+https://github.com/jgreco/mpv-youtube-quality
+
 
 And of course:
 
