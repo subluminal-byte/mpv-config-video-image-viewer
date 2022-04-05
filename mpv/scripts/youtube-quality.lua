@@ -224,10 +224,9 @@ function download_formats()
     for i,v in ipairs(json.formats) do
         if v.vcodec ~= "none" then
             local fps = v.fps and v.fps.."fps" or ""
-            local filesize = string.format("%.2f", (v.filesize/(1024*1024)))
             local vcodec = string.sub(v.vcodec, 1, 4)
             local resolution = string.format("%sx%s", v.width, v.height)
-            local l = string.format("%-9s %-5s %-4s %-4s %-5s %-9s", resolution, fps, v.ext, vcodec, v.vbr, filesize)
+            local l = string.format("%-9s %-5s %-4s %-4s %-5s %-9s", resolution, fps, v.ext, vcodec, v.vbr, v.filesize)
             local f = string.format("%s+bestaudio/best", v.format_id)
             table.insert(res, {label=l, format=f, width=v.width })
         end
