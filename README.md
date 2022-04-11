@@ -31,7 +31,7 @@ https://www.svp-team.com/
 
 # Requirements:
 
-mpv with lua enabled, youtube-dl or yt-dlp installed and in PATH. For OS Linux is preferred but most of these settings can be tweaked and used in Windows/Mac. ffmpeg should also be installed. And GIMP if you want to use the custom keybindings in mpvi/input.conf. I'm sure I'm forgetting something. It'll come to me when I'm asleep.
+mpv with lua enabled and vapoursynth enabled (if you plan to use SVP or some other vapoursynth script), youtube-dl or yt-dlp installed and in PATH. For OS Linux is preferred but most of these settings can be tweaked and used in Windows/Mac. ffmpeg should also be installed. And GIMP if you want to use the custom keybindings in mpvi/input.conf. I'm sure I'm forgetting something. It'll come to me when I'm asleep.
 
 
 # Usage:
