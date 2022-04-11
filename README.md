@@ -11,14 +11,15 @@ https://mpv.io/manual/master/#files-on-windows
 
 # GUI frontends:
 
-Also, for mpv as video player, if you require fancy looking GUI, SMPlayer (Windows/Linux) and IINA (Mac) are good choices.
+Also, for mpv as video player, if you require fancy looking GUI, Celluloid, SMPlayer (Windows/Linux) and IINA (Mac) are good choices.
 
 https://www.smplayer.info/
 
 https://iina.io/
 
-I have personal experience with only SMplayer and not IINA. All the video player related settings here can be accessed using SMplayer advanced option.
-Do duckduckgo/google search for setting up IINA with customized mpv settings.
+https://github.com/celluloid-player/celluloid
+
+I have personal experience with Celluloid and SMplayer and not IINA. All the video player related settings here can be accessed using SMplayer advanced option. Do duckduckgo/google search for setting up IINA with customized mpv settings.
 
 If you're in Linux, and you want to try something else or are unsure and want to test different mpv-based GUI players.
 
