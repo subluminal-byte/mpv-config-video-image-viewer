@@ -43,8 +43,7 @@ Copy the mpvi and mpv to inside ~/.config. mpv is for mpv as video player. mpvi 
 
 The function mpvmusic in .bash_ aliases is to play song/music from youtube. Only audio and no video. alias mpvi is for mpvi from the terminal. .desktop file for usage from inside filemanager/other apps.
 
-mpvi can be called from terminal to play either a directory containing multiple images as a slideshow or a single image.
-Playing a single image will automatically add entries to playlist using autoload.lua. Playback starts paused. Press space to start slideshow from the current image. Or simply comment out or delete the 'pause=yes' option in mpvi/mpv.conf. status-line.lua shows filename, file size and image dimensions.
+mpvi can be called from terminal to play either a directory containing multiple images as a slideshow or a single image. Playback starts paused. Press space to start slideshow from the current image. Or simply comment out or delete the 'pause=yes' option in mpvi/mpv.conf.
 
 For mpv as video player, simply double clicking a file should open it. For use in terminal, 'mpv URL'. For debugging purposes, 'mpv -v URL'.
 
@@ -59,6 +58,9 @@ There are some video/audio filters set up in input.conf. Read the remarks. Also 
 # Scripts
 
 In mpv as video player, I have 3 lua scripts. height-profiles.lua loads conditional profiles based on video height. UD = 2K/4K+ videos. FHD = height < 1440 and => 1080. HD = < 1080 and >= 720 and finally, SD = all else meaning < 720. Change the lua file to suit your needs. Profiles are defined in mpv.conf. live-filters.lua can insert arbitrary ffmpeg filters on the fly. Use the key '`' to call it. In the little line that appears at the bottom of the screen, type in the ffmpeg filter of your choice ( without adding vf or lavfi ). youtube-quality.lua can be used for runtime switching of youtube video and/or audio formats. I slightly modified it to scale better in fullscreen and added video filesize. Also vcodec format is slightly modified for better looking output. Original lua is linked at the end of the README.
+
+For mpvi, playing a single image will automatically add entries to playlist using autoload.lua. status-line.lua shows filename, file size and image dimensions.
+
 
 
 # Shaders
